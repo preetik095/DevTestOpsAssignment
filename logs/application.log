@@ -1,0 +1,933 @@
+[INFO ] 2024-06-13 14:24:56,116 tests.TestGetBooking:21 - Calling GetBooking constructor
+[INFO ] 2024-06-13 14:46:13,308 tests.TestGetBooking:21 - Calling GetBooking constructor
+[INFO ] 2024-06-13 14:51:23,227 tests.TestGetBooking:21 - Calling GetBooking constructor
+[INFO ] 2024-06-13 14:53:45,182 tests.TestGetBooking:21 - Calling GetBooking constructor
+[INFO ] 2024-06-13 15:11:04,130 tests.TestGetBooking:21 - Calling GetBooking constructor
+[INFO ] 2024-06-13 15:33:27,089 tests.TestCreateBooking:20 - Calling GetBooking constructor
+[INFO ] 2024-06-13 19:10:27,995 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-13 19:12:15,775 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 11:08:32,741 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:31:42,133 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:44:29,367 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:44:32,905 tests.TestGetBooking:24 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:51:44,452 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:52:09,060 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:52:12,451 tests.TestGetBooking:24 - Calling GetBooking constructor
+[INFO ] 2024-06-14 12:55:35,581 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 13:03:43,167 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 13:06:45,848 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 13:07:08,713 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 13:13:44,318 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 13:17:57,398 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 13:21:41,428 tests.TestCreateBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 16:03:23,414 tests.TestBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 16:04:32,756 tests.TestBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 16:05:36,825 tests.TestBooking:26 - Calling GetBooking constructor
+[INFO ] 2024-06-14 18:33:40,006 tests.TestBooking:25 - Calling GetBooking constructor
+[INFO ] 2024-06-14 18:46:53,088 tests.TestBooking:25 - Calling GetBooking constructor
+[INFO ] 2024-06-14 18:53:59,863 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 18:55:22,967 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 18:59:19,635 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 19:01:08,806 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 19:02:59,497 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 19:04:08,610 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 19:24:15,746 tests.TestBooking:31 - Calling GetBooking constructor
+[INFO ] 2024-06-14 22:42:11,459 tests.TestBooking:35 - Initializing restful booker API
+[INFO ] 2024-06-14 22:47:02,118 tests.TestBooking:36 - Initializing restful booker API
+[INFO ] 2024-06-14 22:47:48,398 tests.TestBooking:36 - Initializing restful booker API
+[INFO ] 2024-06-14 22:49:03,557 tests.TestBooking:36 - Initializing restful booker API
+[INFO ] 2024-06-14 23:12:35,242 tests.TestBooking:34 - Initializing restful booker API
+[INFO ] 2024-06-14 23:27:38,788 tests.TestBooking:38 - Initializing restful booker API
+[INFO ] 2024-06-17 12:27:47,187 tests.TestBooking:42 - Initializing restful booker API
+[INFO ] 2024-06-17 12:29:05,560 tests.TestBooking:42 - Initializing restful booker API
+[INFO ] 2024-06-18 11:08:59,668 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:09:09,808 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:09:12,186 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:09:14,538 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:14:25,471 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:14:33,638 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:14:35,865 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:14:38,166 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:18:18,532 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:18:29,326 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:18:31,730 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:18:33,994 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:19:16,127 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:19:54,920 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 11:24:17,271 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:24:25,358 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:24:26,570 tests.TestBooking:220 - Exception occured
+[ERROR] 2024-06-18 11:24:26,591 tests.TestBooking:243 - Exception occured
+[ERROR] 2024-06-18 11:24:26,600 tests.TestBooking:269 - Exception occured
+[INFO ] 2024-06-18 11:27:30,852 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:27:38,740 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:27:39,905 tests.TestBooking:220 - Exception occured
+[ERROR] 2024-06-18 11:27:39,925 tests.TestBooking:243 - Exception occured
+[ERROR] 2024-06-18 11:27:39,935 tests.TestBooking:269 - Exception occured
+[INFO ] 2024-06-18 11:28:16,628 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:31:49,109 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:36:29,437 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:36:37,893 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:36:39,394 tests.TestBooking:220 - Exception occured
+[ERROR] 2024-06-18 11:36:39,418 tests.TestBooking:243 - Exception occured
+[ERROR] 2024-06-18 11:36:39,428 tests.TestBooking:269 - Exception occured
+[INFO ] 2024-06-18 11:37:50,768 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:38:01,339 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:38:02,865 tests.TestBooking:220 - Exception occured
+[ERROR] 2024-06-18 11:38:02,885 tests.TestBooking:243 - Exception occured
+[ERROR] 2024-06-18 11:38:02,896 tests.TestBooking:269 - Exception occured
+[INFO ] 2024-06-18 11:38:31,983 tests.TestBooking:45 - Initializing restful booker API
+[INFO ] 2024-06-18 11:38:41,499 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:38:43,051 tests.TestBooking:220 - Exception occured
+[ERROR] 2024-06-18 11:38:43,071 tests.TestBooking:243 - Exception occured
+[ERROR] 2024-06-18 11:38:43,079 tests.TestBooking:269 - Exception occured
+[INFO ] 2024-06-18 11:49:46,090 tests.TestBooking:47 - Initializing restful booker API
+[INFO ] 2024-06-18 11:49:54,800 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:49:56,316 tests.TestBooking:222 - Exception occured
+[ERROR] 2024-06-18 11:49:56,341 tests.TestBooking:258 - Exception occured
+[ERROR] 2024-06-18 11:49:56,352 tests.TestBooking:284 - Exception occured
+[INFO ] 2024-06-18 11:52:37,728 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 11:52:47,849 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:52:49,347 tests.TestBooking:221 - Exception occured
+[INFO ] 2024-06-18 11:54:06,278 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 11:54:14,982 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:54:16,496 tests.TestBooking:221 - Exception occured
+[INFO ] 2024-06-18 11:55:55,833 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 11:56:04,670 model.GenerateToken:47 - Authorization token created successfully
+[ERROR] 2024-06-18 11:56:06,262 tests.TestBooking:221 - Exception occured
+[INFO ] 2024-06-18 12:01:45,680 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:01:57,910 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:02:35,581 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:04:41,479 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:04:52,658 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:05:04,449 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:23:35,053 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:23:44,106 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:24:12,958 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:24:57,576 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:25:07,091 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:25:23,383 model.GenerateToken:47 - Authorization token created successfully
+[INFO ] 2024-06-18 12:36:29,568 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:43:22,053 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:43:43,519 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 12:46:37,724 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:46:57,219 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 12:47:41,753 model.GenerateToken:49 - Authorization token created successfully
+[ERROR] 2024-06-18 12:47:43,083 tests.TestBooking:257 - Exception occured
+[INFO ] 2024-06-18 12:49:36,989 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:49:46,252 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 12:49:48,593 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 12:55:06,231 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:55:15,496 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 12:55:17,731 model.GenerateToken:49 - Authorization token created successfully
+[ERROR] 2024-06-18 12:55:18,988 tests.TestBooking:257 - Exception occured
+[INFO ] 2024-06-18 12:55:53,687 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 12:56:03,003 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 12:57:12,723 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 13:48:40,335 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 13:48:47,696 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 13:49:16,782 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 13:53:07,542 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 13:53:22,839 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 13:53:30,648 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 13:54:14,583 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 13:57:05,329 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 13:57:12,669 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 13:57:26,963 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:07:02,726 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 14:07:13,032 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:07:15,340 model.GenerateToken:49 - Authorization token created successfully
+[ERROR] 2024-06-18 14:07:16,598 tests.TestBooking:246 - Exception occured
+[INFO ] 2024-06-18 14:07:17,707 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:07:36,911 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 14:07:47,077 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:07:58,582 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:09:06,986 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 14:09:16,774 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:09:38,145 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:15:41,203 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 14:15:50,323 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:16:01,498 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:17:37,786 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 14:17:44,934 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:17:47,323 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:17:49,642 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:18:47,517 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 14:18:57,292 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:18:59,524 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 14:19:09,679 model.GenerateToken:49 - Authorization token created successfully
+[INFO ] 2024-06-18 15:12:39,729 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 15:14:54,418 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 15:17:57,320 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 15:18:08,317 tests.TestBooking:46 - Initializing restful booker API
+[INFO ] 2024-06-18 15:20:18,301 tests.TestBooking:47 - Initializing restful booker API
+[INFO ] 2024-06-18 15:21:24,777 tests.TestBooking:47 - Initializing restful booker API
+[INFO ] 2024-06-18 15:21:43,640 tests.TestBooking:47 - Initializing restful booker API
+[INFO ] 2024-06-18 15:43:27,872 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 15:43:32,458 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 15:44:07,440 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 15:44:11,948 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 15:45:30,088 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 15:45:34,472 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 16:08:33,348 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 16:08:45,897 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 16:10:07,814 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 16:10:19,901 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 16:11:57,808 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 16:12:07,321 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 16:13:49,645 tests.BaseTest:32 - Initializing restful booker API
+[INFO ] 2024-06-18 16:13:59,447 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:39:36,302 tests.BaseTest:33 - Initializing restful booker API
+[INFO ] 2024-06-18 17:39:42,110 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:41:51,776 tests.BaseTest:33 - Initializing restful booker API
+[INFO ] 2024-06-18 17:41:56,447 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:43:45,972 tests.BaseTest:33 - Initializing restful booker API
+[INFO ] 2024-06-18 17:43:50,654 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:46:48,265 tests.BaseTest:33 - Initializing restful booker API
+[INFO ] 2024-06-18 17:46:52,978 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:57:23,286 tests.ApiTest:38 - Initializing restful booker API
+[ERROR] 2024-06-18 17:57:30,012 tests.ApiTest:148 - Exception occured
+[INFO ] 2024-06-18 17:57:31,217 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:57:33,659 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:57:35,990 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:59:29,579 tests.ApiTest:38 - Initializing restful booker API
+[ERROR] 2024-06-18 17:59:35,511 tests.ApiTest:148 - Exception occured
+[INFO ] 2024-06-18 17:59:36,770 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:59:39,158 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 17:59:41,409 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:00:48,950 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:02:03,749 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:02:45,281 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:04:21,320 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:04:29,501 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:04:31,914 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:04:34,179 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:06:51,335 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:06:59,216 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:07:01,531 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:07:03,870 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:08:29,769 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:08:37,485 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:08:39,861 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:08:42,142 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:09:21,588 tests.ApiTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:09:29,725 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:09:32,022 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:09:34,124 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:30:50,443 tests.BaseTest:35 - Initializing restful booker API
+[INFO ] 2024-06-18 18:30:53,730 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:32:06,694 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:32:13,446 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:33:32,903 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:33:36,900 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:34:41,683 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:34:45,131 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-18 18:35:54,100 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-18 18:37:24,596 tests.ApiTest:36 - Initializing restful booker API
+[INFO ] 2024-06-18 18:37:28,043 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-21 23:17:44,481 tests.ApiTest:45 - Initializing restful booker API
+[INFO ] 2024-06-24 10:29:06,038 tests.ApiTest:45 - Initializing restful booker API
+[INFO ] 2024-06-24 10:35:50,895 tests.ApiTest:45 - Initializing restful booker API
+[INFO ] 2024-06-24 10:37:23,779 tests.ApiTest:43 - Initializing restful booker API
+[INFO ] 2024-06-24 10:38:14,912 tests.ApiTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 10:57:03,335 tests.ApiTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 10:59:04,519 tests.ApiTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 11:00:29,181 tests.ApiTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 11:01:10,869 tests.ApiTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 11:01:18,898 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:01:22,252 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:01:25,091 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:15:48,145 tests.ApiTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 11:15:55,640 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:15:57,957 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:16:00,285 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:28:44,091 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:30:18,302 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:31:38,763 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:35:22,314 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:52:18,906 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:54:00,515 tests.BaseTest:34 - Initializing restful booker API
+[INFO ] 2024-06-24 11:54:08,566 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:54:46,778 tests.BaseTest:34 - Initializing restful booker API
+[INFO ] 2024-06-24 11:54:55,146 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:55:35,805 tests.BaseTest:34 - Initializing restful booker API
+[INFO ] 2024-06-24 11:56:32,786 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 11:57:27,736 tests.BaseTest:35 - Initializing restful booker API
+[INFO ] 2024-06-24 11:57:36,521 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:01:02,134 tests.BaseTest:34 - Initializing restful booker API
+[INFO ] 2024-06-24 12:01:07,725 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:01:08,985 tests.ApiTest:154 - Exception occured
+[ERROR] 2024-06-24 12:01:08,990 tests.ApiTest:195 - Exception occured
+[ERROR] 2024-06-24 12:01:08,996 tests.ApiTest:220 - Exception occured
+[ERROR] 2024-06-24 12:01:09,001 tests.ApiTest:245 - Exception occured
+[INFO ] 2024-06-24 12:01:53,732 tests.BaseTest:35 - Initializing restful booker API
+[INFO ] 2024-06-24 12:01:58,984 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:02:00,240 tests.ApiTest:154 - Exception occured
+[ERROR] 2024-06-24 12:02:00,245 tests.ApiTest:195 - Exception occured
+[ERROR] 2024-06-24 12:02:00,250 tests.ApiTest:220 - Exception occured
+[ERROR] 2024-06-24 12:02:00,254 tests.ApiTest:245 - Exception occured
+[INFO ] 2024-06-24 12:03:42,822 tests.BaseTest:36 - Initializing restful booker API
+[INFO ] 2024-06-24 12:03:47,738 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:03:48,896 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:03:51,161 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:03:52,357 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:03:52,360 tests.ApiTest:154 - Exception occured
+[INFO ] 2024-06-24 12:03:53,432 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:03:53,435 tests.ApiTest:195 - Exception occured
+[INFO ] 2024-06-24 12:03:54,564 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:03:54,567 tests.ApiTest:220 - Exception occured
+[INFO ] 2024-06-24 12:03:55,703 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:03:55,705 tests.ApiTest:245 - Exception occured
+[INFO ] 2024-06-24 12:03:56,896 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:03:59,162 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:04:01,481 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:04:33,131 tests.BaseTest:36 - Initializing restful booker API
+[INFO ] 2024-06-24 12:05:28,067 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:06:21,068 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:07:15,704 tests.BaseTest:36 - Initializing restful booker API
+[INFO ] 2024-06-24 12:07:21,439 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:07:22,682 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:07:24,278 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:07:24,284 tests.ApiTest:154 - Exception occured
+[INFO ] 2024-06-24 12:07:25,399 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:07:25,402 tests.ApiTest:195 - Exception occured
+[INFO ] 2024-06-24 12:07:26,527 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:07:26,529 tests.ApiTest:220 - Exception occured
+[INFO ] 2024-06-24 12:07:27,642 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:07:27,643 tests.ApiTest:245 - Exception occured
+[INFO ] 2024-06-24 12:07:28,763 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:07:31,419 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:07:33,886 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:08:36,468 tests.BaseTest:36 - Initializing restful booker API
+[INFO ] 2024-06-24 12:08:41,897 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:09:58,198 tests.BaseTest:36 - Initializing restful booker API
+[INFO ] 2024-06-24 12:10:03,796 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:10:05,052 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:10:07,514 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:10:09,782 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:10:09,791 tests.ApiTest:194 - Exception occured
+[INFO ] 2024-06-24 12:10:10,945 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:10:10,957 tests.ApiTest:219 - Exception occured
+[INFO ] 2024-06-24 12:10:12,098 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:10:12,103 tests.ApiTest:244 - Exception occured
+[INFO ] 2024-06-24 12:10:13,248 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:10:15,802 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:10:18,382 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:12:30,848 tests.BaseTest:37 - Initializing restful booker API
+[INFO ] 2024-06-24 12:14:45,003 tests.BaseTest:37 - Initializing restful booker API
+[INFO ] 2024-06-24 12:18:25,692 tests.BaseTest:37 - Initializing restful booker API
+[INFO ] 2024-06-24 12:21:23,774 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 12:27:20,722 tests.BaseTest:39 - Initializing restful booker API
+[INFO ] 2024-06-24 12:31:16,242 tests.BaseTest:39 - Initializing restful booker API
+[INFO ] 2024-06-24 12:32:23,961 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 12:32:34,532 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:32:35,705 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:32:38,141 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:32:40,457 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:32:40,469 tests.ApiTest:151 - Exception occured
+[INFO ] 2024-06-24 12:32:41,600 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:32:41,605 tests.ApiTest:176 - Exception occured
+[INFO ] 2024-06-24 12:32:42,688 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:32:42,692 tests.ApiTest:201 - Exception occured
+[INFO ] 2024-06-24 12:32:43,833 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:32:46,097 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:32:48,379 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:37:29,575 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:37:34,670 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:37:35,876 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:37:38,202 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:37:40,474 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:37:40,484 tests.ApiTest:151 - Exception occured
+[INFO ] 2024-06-24 12:37:41,581 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:37:41,587 tests.ApiTest:176 - Exception occured
+[INFO ] 2024-06-24 12:37:42,700 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:37:42,705 tests.ApiTest:201 - Exception occured
+[INFO ] 2024-06-24 12:37:43,822 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:37:46,345 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:37:48,943 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:40:23,720 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:41:21,046 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:42:28,885 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:44:04,843 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:44:10,015 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:44:11,041 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:44:13,473 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:44:15,654 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:44:15,661 tests.ApiTest:149 - Exception occured
+[INFO ] 2024-06-24 12:44:16,868 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:44:16,874 tests.ApiTest:174 - Exception occured
+[INFO ] 2024-06-24 12:44:18,046 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:44:18,050 tests.ApiTest:199 - Exception occured
+[INFO ] 2024-06-24 12:44:19,215 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:44:21,511 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:44:23,824 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:19,899 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:46:25,697 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:26,915 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:29,304 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:31,611 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:46:31,623 tests.ApiTest:148 - Exception occured
+[INFO ] 2024-06-24 12:46:32,746 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:46:32,753 tests.ApiTest:173 - Exception occured
+[INFO ] 2024-06-24 12:46:33,837 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:46:33,842 tests.ApiTest:198 - Exception occured
+[INFO ] 2024-06-24 12:46:34,845 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:37,276 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:39,775 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:46:55,848 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:47:12,304 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:49:18,131 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:49:24,704 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:49:25,871 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:49:28,173 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:49:30,438 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:49:30,449 tests.ApiTest:148 - Exception occured
+[INFO ] 2024-06-24 12:49:31,566 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:49:31,572 tests.ApiTest:173 - Exception occured
+[INFO ] 2024-06-24 12:49:32,630 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:49:32,638 tests.ApiTest:198 - Exception occured
+[INFO ] 2024-06-24 12:49:33,753 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:49:36,372 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:49:38,940 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:50:37,300 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:50:42,049 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:50:43,262 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:50:45,593 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:50:47,810 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:50:47,818 tests.ApiTest:149 - Exception occured
+[INFO ] 2024-06-24 12:50:48,909 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:50:48,915 tests.ApiTest:174 - Exception occured
+[INFO ] 2024-06-24 12:50:49,962 api.AuthAPI:46 - Authorization token created successfully
+[ERROR] 2024-06-24 12:50:49,968 tests.ApiTest:199 - Exception occured
+[INFO ] 2024-06-24 12:54:14,433 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:54:19,795 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:54:20,890 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:54:23,204 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:54:25,391 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:54:27,767 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:54:29,961 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:58:26,144 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 12:58:31,344 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 12:59:57,604 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 13:00:02,567 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:02:20,497 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 13:02:24,236 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:04:25,598 tests.BaseTest:41 - Initializing restful booker API
+[INFO ] 2024-06-24 13:04:30,992 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:04:32,298 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:04:34,743 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:04:37,105 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:04:39,376 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:04:41,711 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:09:32,383 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:09:37,019 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:09:38,155 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:09:40,665 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:09:42,964 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:09:45,270 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:09:47,433 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:12:08,493 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:12:13,357 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:12:14,628 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:12:17,048 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:12:19,179 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:12:21,585 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:12:23,977 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:13:32,082 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:13:35,790 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:13:37,304 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:13:39,786 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:13:42,080 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:13:44,400 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:13:46,717 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:15:00,874 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:15:04,612 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:15:06,127 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:15:08,542 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:15:10,988 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:15:13,242 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:15:15,506 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:16:06,040 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:16:09,842 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:16:11,262 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:16:13,654 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:16:15,997 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:16:18,277 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:16:20,731 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:29:41,809 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:29:45,761 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:08,506 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:30:12,108 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:13,368 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:15,973 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:18,305 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:20,601 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:22,966 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:48,161 tests.BaseTest:38 - Initializing restful booker API
+[INFO ] 2024-06-24 13:30:51,665 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:52,925 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:55,498 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:30:57,861 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:31:00,123 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 13:31:02,497 api.AuthAPI:46 - Authorization token created successfully
+[INFO ] 2024-06-24 14:24:46,546 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:24:46,550 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:24:48,010 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:24:48,011 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:24:50,562 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:24:50,563 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:24:52,760 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:24:52,760 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:24:55,060 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:24:55,060 tests.BaseTest:71 - Creating token
+[ERROR] 2024-06-24 14:24:56,169 tests.ApiTest:207 - Exception occured
+[INFO ] 2024-06-24 14:24:56,171 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:24:56,172 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:33:48,628 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:33:48,633 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:33:50,188 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:33:50,188 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:33:52,661 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:33:52,661 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:33:54,842 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:33:54,842 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:33:57,139 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:33:57,139 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:33:59,560 tests.BaseTest:79 - Generating testmethod name
+[INFO ] 2024-06-24 14:33:59,560 tests.BaseTest:71 - Creating token
+[INFO ] 2024-06-24 14:35:19,718 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:35:19,723 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:35:21,419 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:35:21,419 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:35:23,870 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:35:23,871 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:35:26,229 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:35:26,229 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:35:28,517 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:35:28,517 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:35:30,987 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:35:30,987 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:37:12,141 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:37:12,144 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:37:13,912 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:37:13,913 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:37:16,368 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:37:16,368 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:37:18,661 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:37:18,662 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:37:20,950 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:37:20,950 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:37:23,357 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:37:23,358 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:40:22,004 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:40:22,009 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:40:23,615 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:40:23,617 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:40:25,982 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:40:25,983 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:40:28,379 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:40:28,380 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:40:30,760 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:40:30,760 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:40:33,281 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:40:33,281 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:42:48,004 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:42:48,160 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:42:49,755 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:42:49,757 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:42:52,176 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:42:52,178 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:42:54,479 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:42:54,480 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:42:56,743 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:42:56,743 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:42:59,126 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:42:59,126 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:52:19,508 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:52:19,644 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:52:21,149 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:52:21,150 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:52:24,105 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:52:24,106 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:52:27,155 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:52:27,156 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 14:52:30,318 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 14:52:30,319 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 15:01:32,196 tests.BaseTest:75 - Generating testmethod name
+[INFO ] 2024-06-24 15:01:32,332 tests.BaseTest:67 - Creating token
+[INFO ] 2024-06-24 15:01:34,019 tests.BaseTest:75 - Generating testmethod name
+[INFO ] 2024-06-24 15:01:34,020 tests.BaseTest:67 - Creating token
+[INFO ] 2024-06-24 15:01:37,055 tests.BaseTest:75 - Generating testmethod name
+[INFO ] 2024-06-24 15:01:37,055 tests.BaseTest:67 - Creating token
+[INFO ] 2024-06-24 15:01:39,879 tests.BaseTest:75 - Generating testmethod name
+[INFO ] 2024-06-24 15:01:39,879 tests.BaseTest:67 - Creating token
+[INFO ] 2024-06-24 15:01:42,665 tests.BaseTest:75 - Generating testmethod name
+[INFO ] 2024-06-24 15:01:42,667 tests.BaseTest:67 - Creating token
+[ERROR] 2024-06-24 15:01:45,809 tests.ApiTest:214 - Exception occured
+[INFO ] 2024-06-24 15:01:45,812 tests.BaseTest:75 - Generating testmethod name
+[INFO ] 2024-06-24 15:01:45,812 tests.BaseTest:67 - Creating token
+[INFO ] 2024-06-24 16:11:42,342 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:11:46,448 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:11:53,252 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:11:59,989 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:12:07,063 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:12:13,517 tests.ApiTest:188 - Exception occured
+[INFO ] 2024-06-24 16:12:13,651 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:12:20,372 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:12:26,864 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:12:33,543 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:12,215 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:15,910 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:22,796 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:29,331 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:35,604 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:13:42,214 tests.ApiTest:188 - Exception occured
+[INFO ] 2024-06-24 16:13:42,232 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:48,812 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:13:55,191 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:14:01,818 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:18:36,480 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:18:40,129 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:18:46,651 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:18:52,900 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:18:59,232 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:19:06,025 tests.ApiTest:190 - Exception occured
+[INFO ] 2024-06-24 16:19:06,077 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:19:12,721 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:19:21,217 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:19:28,811 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:21:33,957 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:21:37,490 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:21:43,986 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:21:50,012 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:21:56,178 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:22:02,472 tests.ApiTest:190 - Exception occured
+[INFO ] 2024-06-24 16:22:02,489 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:22:08,812 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:22:15,180 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:22:21,707 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:26:17,846 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:27:13,255 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:43,932 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:45,490 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:47,957 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:50,233 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:52,671 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:40:55,267 tests.ApiTest:190 - Exception occured
+[INFO ] 2024-06-24 16:40:55,274 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:57,570 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:40:59,987 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:41:02,655 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:41,852 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:43,558 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:45,919 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:48,339 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:50,620 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:43:53,048 tests.ApiTest:190 - Exception occured
+[INFO ] 2024-06-24 16:43:53,060 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:55,481 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:43:57,837 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:44:00,101 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:19,077 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:20,715 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:23,189 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:25,628 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:28,007 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:47:30,526 tests.ApiTest:190 - Exception occured
+[INFO ] 2024-06-24 16:47:30,533 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:32,911 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:35,521 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:47:38,164 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:50:49,004 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:50:49,008 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:50:50,838 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:50:50,839 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:50:53,287 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:50:53,287 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:50:55,644 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:50:55,645 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:50:57,916 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:50:57,917 tests.BaseTest:69 - Creating token
+[ERROR] 2024-06-24 16:51:00,248 tests.ApiTest:178 - Exception occured
+[INFO ] 2024-06-24 16:51:00,254 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:51:00,255 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:51:02,619 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:51:02,619 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:51:05,244 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:51:05,244 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:51:07,978 tests.BaseTest:77 - Generating testmethod name
+[INFO ] 2024-06-24 16:51:07,978 tests.BaseTest:69 - Creating token
+[INFO ] 2024-06-24 16:52:00,988 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:00,991 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:02,302 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:02,302 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:04,782 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:04,783 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:07,170 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:07,171 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:09,518 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:09,518 tests.BaseTest:70 - Creating token
+[ERROR] 2024-06-24 16:52:12,067 tests.ApiTest:178 - Exception occured
+[INFO ] 2024-06-24 16:52:12,069 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:12,069 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:14,438 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:14,439 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:16,760 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:16,761 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 16:52:19,160 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 16:52:19,161 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:42,583 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:42,586 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:43,844 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:43,845 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:46,510 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:46,510 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:49,004 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:49,004 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:51,544 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:51,544 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:54,029 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:54,029 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:56,381 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:56,382 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:00:59,692 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:00:59,692 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:01:03,362 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:01:03,362 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:10:53,593 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:10:53,600 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:10:55,133 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:10:55,133 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:10:58,082 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:10:58,083 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:11:00,755 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:11:00,756 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:11:03,482 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:11:03,483 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:11:06,152 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:11:06,152 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:11:08,962 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:11:08,962 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:11:12,454 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:11:12,454 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:11:16,104 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:11:16,104 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:01,692 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:01,695 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:03,393 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:03,394 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:06,324 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:06,324 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:09,260 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:09,261 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:12,187 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:12,188 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:15,061 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:15,061 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:17,619 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:17,619 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:20,505 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:20,506 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:12:23,356 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:12:23,356 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:22,073 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:22,076 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:23,826 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:23,827 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:26,669 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:26,669 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:29,202 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:29,204 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:32,063 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:32,064 tests.BaseTest:70 - Creating token
+[ERROR] 2024-06-24 17:13:35,116 tests.ApiTest:175 - Exception occured
+[INFO ] 2024-06-24 17:13:35,118 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:35,118 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:37,792 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:37,793 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:40,243 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:40,244 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 17:13:43,242 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 17:13:43,242 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:01:56,789 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,805 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,810 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,814 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,817 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,821 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,824 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,828 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:01:56,833 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,911 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,927 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,968 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,974 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,979 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,984 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,989 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,993 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:03:31,996 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,060 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,073 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,080 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,086 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,091 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,096 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,101 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,106 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:06:44,110 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:43,894 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:43,897 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:07:45,468 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,476 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,482 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,523 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,529 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,533 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,538 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:07:45,543 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:35,506 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:35,509 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:37,192 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:37,193 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:40,124 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:40,124 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:43,004 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:43,006 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:45,849 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:45,849 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:48,715 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:48,716 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:51,691 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:51,692 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:54,311 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:54,312 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:08:57,114 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:08:57,115 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:16,777 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:16,780 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:18,390 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:18,390 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:26,525 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:26,526 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:29,499 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:29,500 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:32,263 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:32,264 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:35,155 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:35,155 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:38,089 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:38,090 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:40,754 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:40,755 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:11:43,328 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:11:43,329 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:12:43,080 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:43,083 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:12:44,360 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:44,360 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:12:47,423 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:47,425 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:12:50,481 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:50,481 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:12:53,358 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:53,359 tests.BaseTest:70 - Creating token
+[ERROR] 2024-06-24 18:12:55,912 tests.ApiTest:175 - Exception occured
+[INFO ] 2024-06-24 18:12:55,914 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:55,914 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:12:58,598 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:12:58,598 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:01,366 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:01,367 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:04,213 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:04,214 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:43,105 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:43,108 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:44,541 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:44,542 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:47,542 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:47,543 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:50,392 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:50,392 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:53,467 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:53,467 tests.BaseTest:70 - Creating token
+[ERROR] 2024-06-24 18:13:56,362 tests.ApiTest:175 - Exception occured
+[INFO ] 2024-06-24 18:13:56,364 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:56,365 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:13:59,200 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:13:59,200 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:14:02,203 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:14:02,203 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:14:05,248 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:14:05,248 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:10,035 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:10,041 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:12,042 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:12,044 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:14,828 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:14,830 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:17,613 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:17,614 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:20,444 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:20,445 tests.BaseTest:70 - Creating token
+[ERROR] 2024-06-24 18:24:23,332 tests.ApiTest:175 - Exception occured
+[INFO ] 2024-06-24 18:24:23,336 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:23,338 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:26,394 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:26,395 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:28,944 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:28,944 tests.BaseTest:70 - Creating token
+[INFO ] 2024-06-24 18:24:32,371 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-06-24 18:24:32,372 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:04,671 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:04,676 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:06,553 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:06,554 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:09,465 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:09,466 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:12,427 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:12,428 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:15,390 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:15,391 tests.BaseTest:70 - Creating token
+[ERROR] 2024-07-09 12:45:18,470 tests.ApiTest:175 - Exception occured
+[INFO ] 2024-07-09 12:45:18,473 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:18,473 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:21,217 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:21,218 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:24,461 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:24,462 tests.BaseTest:70 - Creating token
+[INFO ] 2024-07-09 12:45:27,921 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-07-09 12:45:27,922 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:03,834 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:03,839 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:07,078 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:07,079 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:12,976 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:12,977 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:18,769 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:18,769 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:24,605 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:24,606 tests.BaseTest:70 - Creating token
+[ERROR] 2024-10-04 12:36:30,629 tests.ApiTest:175 - Exception occured
+[INFO ] 2024-10-04 12:36:30,631 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:30,631 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:36,721 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:36,721 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:43,084 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:43,085 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 12:36:49,462 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 12:36:49,463 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 23:34:31,769 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 23:34:31,774 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 23:34:33,378 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 23:34:33,378 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 23:34:36,538 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 23:34:36,539 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-04 23:34:39,889 tests.BaseTest:78 - Generating testmethod name
+[INFO ] 2024-10-04 23:34:39,890 tests.BaseTest:70 - Creating token
+[INFO ] 2024-10-08 11:11:56,742 tests.BaseTest:66 - Generating testmethod name
+[INFO ] 2024-10-08 11:11:58,051 tests.BaseTest:66 - Generating testmethod name
+[INFO ] 2024-10-08 11:11:59,164 tests.BaseTest:66 - Generating testmethod name
+[INFO ] 2024-10-08 11:59:36,071 tests.BaseTest:66 - Generating testmethod name
+[INFO ] 2024-10-08 11:59:38,327 tests.BaseTest:66 - Generating testmethod name
+[INFO ] 2024-10-08 11:59:39,817 tests.BaseTest:66 - Generating testmethod name

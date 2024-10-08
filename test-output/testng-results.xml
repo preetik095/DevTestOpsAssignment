@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-08T11:11:54 IST" name="Default suite" finished-at="2024-10-08T11:12:00 IST" duration-ms="6113">
+    <groups>
+    </groups>
+    <test started-at="2024-10-08T11:11:54 IST" name="Default test" finished-at="2024-10-08T11:12:00 IST" duration-ms="6113">
+      <class name="tests.ApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:54 IST" name="setup" finished-at="2024-10-08T11:11:54 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testHealthCheck()[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:54 IST" name="testHealthCheck" finished-at="2024-10-08T11:11:56 IST" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthCheck -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:56 IST" name="getMethodName" finished-at="2024-10-08T11:11:56 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiTest.testGetAllBookingIDs_GET()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="testGetAllBookingIDs_GET()[pri:1, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:56 IST" name="testGetAllBookingIDs_GET" description="this request to get list of all booking IDs" finished-at="2024-10-08T11:11:58 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBookingIDs_GET -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:58 IST" name="getResult" finished-at="2024-10-08T11:11:58 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllBookingIDs_GET status=SUCCESS method=ApiTest.testGetAllBookingIDs_GET()[pri:1, instance:tests.ApiTest@6ca0256d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:58 IST" name="getMethodName" finished-at="2024-10-08T11:11:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiTest.testGetBookingIDsByName_GET()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="testGetBookingIDsByName_GET()[pri:2, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:58 IST" name="testGetBookingIDsByName_GET" description="this request to get list of all booking IDs with parameters firstname &amp; last name" finished-at="2024-10-08T11:11:59 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingIDsByName_GET -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:59 IST" name="getResult" finished-at="2024-10-08T11:11:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetBookingIDsByName_GET status=SUCCESS method=ApiTest.testGetBookingIDsByName_GET()[pri:2, instance:tests.ApiTest@6ca0256d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:59 IST" name="getMethodName" finished-at="2024-10-08T11:11:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ApiTest.testGetBookingIDsByDate_GET()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="testGetBookingIDsByDate_GET()[pri:3, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:11:59 IST" name="testGetBookingIDsByDate_GET" description="this request to get list of all booking IDs with parameters checkin &amp; checkout" finished-at="2024-10-08T11:12:00 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingIDsByDate_GET -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:12:00 IST" name="getResult" finished-at="2024-10-08T11:12:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetBookingIDsByDate_GET status=SUCCESS method=ApiTest.testGetBookingIDsByDate_GET()[pri:3, instance:tests.ApiTest@6ca0256d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.ApiTest@6ca0256d]" started-at="2024-10-08T11:12:00 IST" name="endReport" finished-at="2024-10-08T11:12:00 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.ApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
