@@ -26,7 +26,7 @@ pipeline {
         stage('SonarQube Analysis') {
             steps {
                 withSonarQubeEnv(SonarQube_nagp) {
-                    bat "mvn clean sonar:sonar"
+                    bat "mvn clean test sonar:sonar"
                 }
             }
         }
@@ -64,7 +64,7 @@ pipeline {
 
     post {
         always {
-            junit '**/target/surefire-reports/*.xml' // Archive test reports
+            testng '**/target/surefire-reports/*.xml' // Archive test reports
         }
         success {
             echo 'Build and SonarQube quality gate passed. Artifacts uploaded to Artifactory.'
