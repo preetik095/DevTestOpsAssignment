@@ -26,7 +26,7 @@ pipeline {
         stage('SonarQube Analysis') {
             steps {
                 withSonarQubeEnv('SonarQube_nagp') {
-                   bat "mvn clean test sonar:sonar"
+                   bat "mvn sonar:sonar"
                   // bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.5:sonar"
                 }
             }
@@ -34,7 +34,6 @@ pipeline {
 
         stage('Quality Gate') {
 	    steps {
-	        timeout(time: 1, unit: 'HOURS') {
 	            script {
 	                try {
 	                    def qualityGate = waitForQualityGate()
@@ -44,8 +43,7 @@ pipeline {
 	                } catch (Exception e) {
 	                    error "Error checking SonarQube Quality Gate: ${e.message}"
 	                	}
-	            	}
-	        	}
+	            }
 	    	}
 		}
 
