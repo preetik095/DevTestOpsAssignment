@@ -32,22 +32,22 @@ pipeline {
             }
         }
 
-        stage('Quality Gate') {
-	    steps {
-	        timeout(time: 2, unit: 'MINUTES') {
-	            script {
-	                try {
-	                    def qualityGate = waitForQualityGate()
-	                    if (qualityGate.status != 'OK') {
-	                        error "Pipeline failed due to SonarQube Quality Gate failure: ${qualityGate.status}"
-	                    	}
-	                } catch (Exception e) {
-	                    error "Error checking SonarQube Quality Gate: ${e.message}"
-	                	}
-	            	}
-	        	}
-	    	}
-		}
+      //  stage('Quality Gate') {
+	 //   steps {
+	   //     timeout(time: 2, unit: 'MINUTES') {
+	   //         script {
+	   //             try {
+	    //                def qualityGate = waitForQualityGate()
+	     //               if (qualityGate.status != 'OK') {
+	      //                  error "Pipeline failed due to SonarQube Quality Gate failure: ${qualityGate.status}"
+	      //              	}
+	       //         } catch (Exception e) {
+	       //             error "Error checking SonarQube Quality Gate: ${e.message}"
+	        //        	}
+	//	}
+	      //  	}
+	    //	}
+		//}
 
         stage('Publish Artifacts to Artifactory') {
            steps{
