@@ -34,6 +34,7 @@ pipeline {
 
         stage('Quality Gate') {
 	    steps {
+	        timeout(time: 1, unit: 'HOURS') {
 	            script {
 	                try {
 	                    def qualityGate = waitForQualityGate()
@@ -43,7 +44,8 @@ pipeline {
 	                } catch (Exception e) {
 	                    error "Error checking SonarQube Quality Gate: ${e.message}"
 	                	}
-	            }
+	            	}
+	        	}
 	    	}
 		}
 
