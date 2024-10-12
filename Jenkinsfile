@@ -34,7 +34,7 @@ pipeline {
 
         stage('Quality Gate') {
 	    steps {
-	        timeout(time: 10, unit: 'SECOND') {
+	        timeout(time: 10, unit: 'SECONDS') {
 	            script {
 	                try {
 	                    def qualityGate = waitForQualityGate()
