@@ -25,25 +25,29 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv(SonarQube_nagp) {
-                   // bat "mvn clean test sonar:sonar"
-                   bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.5:sonar"
+                withSonarQubeEnv('SonarQube_nagp') {
+                   bat "mvn clean test sonar:sonar"
+                  // bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.5:sonar"
                 }
             }
         }
 
         stage('Quality Gate') {
-            steps {
-                timeout(time: 1, unit: 'HOURS') {
-                    script {
-                        def qualityGate = waitForQualityGate()
-                        if (qualityGate.status != 'OK') {
-                            error "Pipeline failed due to SonarQube Quality Gate failure: ${qualityGate.status}"
-                        }
-                    }
-                }
-            }
-        }
+	    steps {
+	        timeout(time: 1, unit: 'HOURS') {
+	            script {
+	                try {
+	                    def qualityGate = waitForQualityGate()
+	                    if (qualityGate.status != 'OK') {
+	                        error "Pipeline failed due to SonarQube Quality Gate failure: ${qualityGate.status}"
+	                    	}
+	                } catch (Exception e) {
+	                    error "Error checking SonarQube Quality Gate: ${e.message}"
+	                	}
+	            	}
+	        	}
+	    	}
+		}
 
         stage('Publish Artifacts to Artifactory') {
            steps{
