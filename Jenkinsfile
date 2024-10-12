@@ -71,7 +71,7 @@ pipeline {
 
     post {
         always {
-            publishTestNGResults testResultsPattern: '**/target/surefire-reports/*.xml', escapeTestDescp: true, escapeExceptionMsg: true
+            testng '**/target/surefire-reports/*.xml'
         }
         success {
             echo 'Build and SonarQube quality gate passed. Artifacts uploaded to Artifactory.'
