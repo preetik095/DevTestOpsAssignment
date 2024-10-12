@@ -71,7 +71,7 @@ pipeline {
 
     post {
         always {
-            testng '**/target/surefire-reports/*.xml'
+            junit '**/target/surefire-reports/*.xml'
         }
         success {
             echo 'Build and SonarQube quality gate passed. Artifacts uploaded to Artifactory.'
