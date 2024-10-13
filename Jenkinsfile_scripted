@@ -1,69 +1,82 @@
-node{
-    try{
-    	tools {
-    	maven 'Maven'
-    	}
-        stage('Checkout'){
+node {
+    try {
+        // Define tools
+        tools {
+            maven 'Maven'
+        }
+
+        stage('Checkout') {
             echo 'Cloning the git repository'
             checkout scm
         }
-        
+
         stage('Build') {
-        	echo 'Code build'
+            echo 'Building the code'
             bat "mvn clean install"
         }
 
         stage('Test') {
-        	echo 'Code test'
+            echo 'Running tests'
             bat "mvn test"
         }
 
         stage('SonarQube Analysis') {
-                withSonarQubeEnv('SonarQube_nagp') {
-                	echo 'Sonarqube analysis started'
-                   bat "mvn sonar:sonar"
-                } 
+            withSonarQubeEnv('SonarQube_nagp') {
+                echo 'Starting SonarQube analysis'
+                bat "mvn sonar:sonar"
+            }
         }
 
-      //  stage('Quality Gate') {
-	  //  	echo 'Quality gate check'
-	  //      timeout(time: 10, unit: 'MINUTES') {
-	  //          script {
-	   //             try {
-	   //                 def qualityGate = waitForQualityGate()
-	   //                 if (qualityGate.status != 'OK') {
-	    //                    error "Pipeline failed due to SonarQube Quality Gate failure: ${qualityGate.status}"
-	     //               	}
-	     //           } catch (Exception e) {
-	     //               error "Error checking SonarQube Quality Gate: ${e.message}"
-	     //           	}
-		//			}
-	    //    	}
-	//	}
+        // Uncomment and correct the Quality Gate stage if needed
+        /*
+        stage('Quality Gate') {
+            echo 'Checking quality gate'
+            timeout(time: 10, unit: 'MINUTES') {
+                script {
+                    try {
+                        def qualityGate = waitForQualityGate()
+                        if (qualityGate.status != 'OK') {
+                            error "Pipeline failed due to SonarQube Quality Gate failure: ${qualityGate.status}"
+                        }
+                    } catch (Exception e) {
+                        error "Error checking SonarQube Quality Gate: ${e.message}"
+                    }
+                }
+            }
+        }
+        */
 
         stage('Publish Artifacts to Artifactory') {
-           		echo 'Uploading artifacts to artifactory'
-                rtMavenDeployer(
-                    id: 'deployer',
-                    serverId: '3181417@artifactory',
-                    releaseRepo: 'nagp.devtestops.assignment',
-                    snapshotRepo: 'nagp.devtestops.assignment'
-                )
-                rtMavenRun(
-                    pom: 'pom.xml',
-                    goals: 'clean install',
-                    deployerId: 'deployer'
-                    )
-                rtPublishBuildInfo(
-                    serverId:'3181417@artifactory',
-                )
-            }   
+            echo 'Uploading artifacts to Artifactory'
+            rtMavenDeployer(
+                id: 'deployer',
+                serverId: '3181417@artifactory',
+                releaseRepo: 'nagp.devtestops.assignment',
+                snapshotRepo: 'nagp.devtestops.assignment'
+            )
+            rtMavenRun(
+                pom: 'pom.xml',
+                goals: 'clean install',
+                deployerId: 'deployer'
+            )
+            rtPublishBuildInfo(
+                serverId: '3181417@artifactory'
+            )
         }
-        
-        post {
+
+    } catch (Exception e) {
+        echo "Build failed: ${e.message}"
+        currentBuild.result = 'FAILURE' // Mark the build as failed
+    } finally {
+        echo 'Generating test results'
+        junit '**/target/surefire-reports/*.xml'
+
+        echo 'Build completed!'
+    }
+
+    post {
         always {
-        	echo 'Generating testng test result'
-            junit '**/target/surefire-reports/*.xml'
+            echo 'Post-build actions completed.'
         }
         success {
             echo 'Build and SonarQube quality gate passed. Artifacts uploaded to Artifactory.'
@@ -71,12 +84,5 @@ node{
         failure {
             echo 'Build failed!'
         }
-    }
-    }
-    catch(Exception e){
-       echo 'Build got failed' 
-    }
-    finally{
-        echo 'Build completed!'
     }
 }
