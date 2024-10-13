@@ -1,7 +1,7 @@
 node {
     // Define tools
     def mavenHome = tool 'Maven'
-    def gitHome = tool 'Git'
+    def gitHome = tool 'Git'   
     
     try {
         stage('Checkout') {
