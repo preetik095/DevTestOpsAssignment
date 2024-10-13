@@ -6,7 +6,7 @@ node {
     try {
         stage('Checkout') {
             echo 'Cloning the git repository'
-            checkout scm
+             git branch: 'master', url: 'https://github.com/preetik095/DevTestOpsAssignment.git'
         }
 
         stage('Build') {
