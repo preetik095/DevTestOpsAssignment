@@ -1,36 +1,34 @@
 node {
+    // Define tools
+    def mavenHome = tool 'Maven'
+    
     try {
-        // Define tools
-        tools {
-            maven 'Maven'
-        }
-
         stage('Checkout') {
             echo 'Cloning the git repository'
             checkout scm
         }
 
         stage('Build') {
-            echo 'Building the code'
-            bat "mvn clean install"
+            echo 'Code build'
+            bat "${mavenHome}/bin/mvn clean install"
         }
 
         stage('Test') {
-            echo 'Running tests'
-            bat "mvn test"
+            echo 'Code test'
+            bat "${mavenHome}/bin/mvn test"
         }
 
         stage('SonarQube Analysis') {
             withSonarQubeEnv('SonarQube_nagp') {
-                echo 'Starting SonarQube analysis'
-                bat "mvn sonar:sonar"
+                echo 'Sonarqube analysis started'
+                bat "${mavenHome}/bin/mvn sonar:sonar"
             }
         }
 
-        // Uncomment and correct the Quality Gate stage if needed
+        // Uncomment if you want to include the Quality Gate stage
         /*
         stage('Quality Gate') {
-            echo 'Checking quality gate'
+            echo 'Quality gate check'
             timeout(time: 10, unit: 'MINUTES') {
                 script {
                     try {
@@ -63,26 +61,11 @@ node {
                 serverId: '3181417@artifactory'
             )
         }
-
     } catch (Exception e) {
         echo "Build failed: ${e.message}"
-        currentBuild.result = 'FAILURE' // Mark the build as failed
+        currentBuild.result = 'FAILURE'
     } finally {
-        echo 'Generating test results'
+        echo 'Generating TestNG test result'
         junit '**/target/surefire-reports/*.xml'
-
-        echo 'Build completed!'
-    }
-
-    post {
-        always {
-            echo 'Post-build actions completed.'
-        }
-        success {
-            echo 'Build and SonarQube quality gate passed. Artifacts uploaded to Artifactory.'
-        }
-        failure {
-            echo 'Build failed!'
-        }
-    }
-}
+        if (currentBuild.result == 'SUCCESS') {
+            echo 'Bu
