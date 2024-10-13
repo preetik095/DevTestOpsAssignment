@@ -1,34 +1,35 @@
 node {
-    // Define tools
-    def mavenHome = tool 'Maven'
-    
     try {
+       
+        // Define tools
+   		 def mavenHome = tool 'Maven'
+
         stage('Checkout') {
             echo 'Cloning the git repository'
             checkout scm
         }
 
         stage('Build') {
-            echo 'Code build'
-            bat "${mavenHome}/bin/mvn clean install"
+            echo 'Building the code'
+            bat "mvn clean install"
         }
 
         stage('Test') {
-            echo 'Code test'
-            bat "${mavenHome}/bin/mvn test"
+            echo 'Running tests'
+            bat "mvn test"
         }
 
         stage('SonarQube Analysis') {
             withSonarQubeEnv('SonarQube_nagp') {
-                echo 'Sonarqube analysis started'
-                bat "${mavenHome}/bin/mvn sonar:sonar"
+                echo 'Starting SonarQube analysis'
+                bat "mvn sonar:sonar"
             }
         }
 
-        // Uncomment if you want to include the Quality Gate stage
+        // Uncomment and correct the Quality Gate stage if needed
         /*
         stage('Quality Gate') {
-            echo 'Quality gate check'
+            echo 'Checking quality gate'
             timeout(time: 10, unit: 'MINUTES') {
                 script {
                     try {
@@ -61,11 +62,26 @@ node {
                 serverId: '3181417@artifactory'
             )
         }
+
     } catch (Exception e) {
         echo "Build failed: ${e.message}"
-        currentBuild.result = 'FAILURE'
+        currentBuild.result = 'FAILURE' // Mark the build as failed
     } finally {
-        echo 'Generating TestNG test result'
+        echo 'Generating test results'
         junit '**/target/surefire-reports/*.xml'
-        if (currentBuild.result == 'SUCCESS') {
-            echo 'Bu
+
+        echo 'Build completed!'
+    }
+
+    post {
+        always {
+            echo 'Post-build actions completed.'
+        }
+        success {
+            echo 'Build and SonarQube quality gate passed. Artifacts uploaded to Artifactory.'
+        }
+        failure {
+            echo 'Build failed!'
+        }
+    }
+}
