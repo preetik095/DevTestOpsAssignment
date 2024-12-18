@@ -1,12 +1,11 @@
 node {
     // Define tools
     def mavenHome = tool 'Maven'
-    def gitHome = tool 'Git'   
-    
+      
     try {
         stage('Checkout') {
             echo 'Cloning the git repository'
-             git branch: 'master', url: 'https://github.com/preetik095/DevTestOpsAssignment.git'
+            checkout scm
         }
 
         stage('Build') {
